@@ -1,0 +1,4 @@
+Para a elaboração do código, foram criadas as variáveis "medicoes", "limiteInferior", "limiteSuperior" e "quantidadeMedicoesIdeais". Dentro de uma estrutura de repetição "Do while", solicitamos ao usuário os valores do limiteInferior de medição e do limiteSuperior. Esse laço se repetirá enquanto e caso o limiteInferior seja maior que o limiteSuperior.
+Após o usuário informar as métricas, iniciamos um laço "for" que vai de 0 a 9, pedindo as medições registradas. Se a medição registrada estiver dentro dos parâmetros da faixa ideal de medição, ela será armazenada em um vetor chamado "medicoesIdeais" e a variável "quantidadeMedicoesIdeais" será somada a 1.
+Na parte final do programa, um laço for exibe os índices do vetor "medicoesIdeais" e, em seguida, exibimos o valor de "quantidadeMedicoesIdeais".
+Cada  passo do programa foi separado em funções, para melhor organização da função principal.
